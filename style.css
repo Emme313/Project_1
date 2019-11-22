@@ -1,0 +1,213 @@
+html {
+    background: url(images/31338.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Charm', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: #FFC300;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 50.250px auto 0;
+}
+
+h2 {
+    font-family: 'Charm', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 15px auto;
+}
+
+p {
+    font-family: "Abril Fatface", cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+.golden {
+    font-family: 'Charm', cursive;
+    font-size: 26px;
+    text-align: center;
+    color: #FFC300;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+img {
+    height: 350px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#graphic {
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 5px 12px;
+    border: 1.5px solid #65BF3E;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 20px;
+    color: #65BF3E;
+    text-align: center;
+}
+
+.here {
+    width: 100%;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+button:hover {
+    color: #FFC300;
+    border: 1.5px solid #FFC300;
+}
+
+a {
+    font-family: "Abril Fatface", cursive;
+    /* text-align: left; */
+    font-size: 10px;
+    text-decoration: none;
+    color: #65BF3E;
+}
+
+#credit {
+    font-family: "Abril Fatface", cursive;
+    text-align: left;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+#modal {
+    background-color: rgba(178, 223, 159, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+
+#modal-box {
+    background-color: #FFF4CF;
+    height: 400px;
+    width: 650px;
+    margin: 150px auto;
+    padding: 0 25px;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(75px, auto);
+    padding: 1em;
+    /* justify-content: center; */
+}
+
+.nested {
+    grid-column: 5/7;
+    width: 100%;
+}
+
+.nested>button {
+    margin: 0 15px 15px 15px;
+    text-align: left;
+}
+
+#qTag {
+    grid-column: 1/4;
+    background-color: #FFC300;
+    border: 2px solid black;
+    margin: 24px 0 0 0;
+}
+
+#scoreTag {
+    grid-column: 4/7;
+    background-color: #FFC300;
+    border: 2px solid black;
+    margin: 24px 0 0 0;
+}
+
+#triviaQs {
+    grid-column: 1/7;
+    background-color: #FFC300;
+    font-size: 35px;
+    margin: 0 0 24px 0;
+}
+
+#pic {
+    grid-column: 1/5;
+    max-width: 75%;
+    height: auto;
+}
+
+.feedback {
+    display: grid;
+    grid-template-columns: repeat(3, 20% 60% 20%);
+    grid-template-rows: minmax(75px, auto);
+}
+
+#results {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #FFC300;
+    text-shadow: 2px 2px 4px #000000;
+    grid-column: 2/3;
+}
+
+#next {
+    width: 100%;
+    font-family: "Charm", cursive;
+    color: #FFC300;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 45px;
+    grid-column: 2/3;
+}
+
+#results-modal {
+    background-color: #FFF4CF;
+    height: 700px;
+    width: 650px;
+    margin: 150px auto;
+    padding: 0 25px;
+    justify-content: center;
+    display: grid;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Charm&display=swap" rel="stylesheet">
+    <title>The Golden Girls Trivia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Thank you for being a friend!</h1>
+        <img id="graphic"
+            src="https://img.pngio.com/download-pin-golden-girls-clip-art-golden-girls-cartoon-png-golden-girls-png-465_472.png"
+            alt="Download Pin Golden Girls Clip Art - Golden Girls Cartoon PNG ...">
+        <h2>The Golden Girls Trivia</h2>
+        <p>Jump right into trivia, or tap the "How to Play" button for more information.</p>
+    </header>
+    <section>
+        <p class="golden">Ready to travel down this road and back again?</p>
+    </section>
+    <!-- Button resource: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+    <div class="here">
+        <button onclick="window.location.href = 'questions.html';">Play Game</button>
+        <button id="directions">How to Play</button>
+    </div>
+    <section>
+        <div id="modal">
+            <div id="modal-box">
+                <h3>How to Play</h3>
+                <p>Welcome to <span class="golden">The Golden Girls</span> Trivia Game!</p>
+                <p>There are 15 questions on <span class="golden">The Golden Girls</span>, each worth 100 points. Rack
+                    up as many points as possible to see which Golden Girl you are! </p>
+                <button id="close">Close</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a id="credit" href="https://www.freepik.com/free-photos-vectors/frame">Frame vector created by brgfx - www.freepik.com</a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
