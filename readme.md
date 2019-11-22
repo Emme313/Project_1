@@ -8,7 +8,7 @@ This is the first, independent project completed in General Assmebly's Software 
 #### Brief Example
 Below are screenshots of the basic framework used to build the game, and the game rendered in the browser.
 
-![image]('trivia_wireframe.jpg')
+![image](trivia_wireframe.jpg)
 
 ![image](GG_Game_Screenshot.jpg)
 
@@ -19,4 +19,6 @@ For this first project, I featured using a modal (a secondary, functioning windo
 This project features HTML, CSS, JavaScript with DOM manipulation.
 
 #### Getting Started
-Get started playing the game here: https://emme313.github.io/Project_1/
+Get started playing the game here: https://emme313.github.io/SEIR_Projects/Project_1/index.html
+
+Review all the code here: https://github.com/Emme313/SEIR_Projects/tree/master/Project_1
